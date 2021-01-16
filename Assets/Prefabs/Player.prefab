@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 719248512043578006}
   - component: {fileID: 7593713871977088904}
   - component: {fileID: 2853311386557561727}
+  - component: {fileID: -5586834305726509726}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -142,7 +143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed Horizontal","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed
-      Vertical","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"HasProjectiles","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"directionHorizontal","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"directionVertical","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Vertical","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"HasProjectiles","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"directionHorizontal","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"directionVertical","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Movement
+      Horizontal","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &7593713871977088904
 MonoBehaviour:
@@ -176,6 +178,22 @@ CapsuleCollider2D:
   m_Offset: {x: -0.017570972, y: 0}
   m_Size: {x: 1.2848582, y: 1.84}
   m_Direction: 0
+--- !u!114 &-5586834305726509726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784235645598328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 2ce91b8c7c7654b0896e71adf7b3a124, type: 2}
 --- !u!1 &2922797000897335496
 GameObject:
   m_ObjectHideFlags: 0
