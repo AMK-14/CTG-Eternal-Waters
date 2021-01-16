@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8972956670874326300}
   - component: {fileID: 8972956670874326295}
   - component: {fileID: 8972956670874326288}
-  m_Layer: 11
+  m_Layer: 14
   m_Name: Shark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
