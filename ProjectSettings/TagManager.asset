@@ -8,6 +8,8 @@ TagManager:
   - Projectile
   - Key
   - Enemy
+  - perimeter Wall
+  - tilemap
   layers:
   - Default
   - TransparentFX
@@ -25,7 +27,7 @@ TagManager:
   - Projectile
   - Sharks
   - Shark Wall
-  - 
+  - perimeter Wall
   - 
   - 
   - 
