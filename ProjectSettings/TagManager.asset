@@ -8,9 +8,10 @@ TagManager:
   - Projectile
   - Key
   - Enemy
-  - perimeter Wall
   - tilemap
   - Shark
+  - horizontal perimeter wall
+  - vertical perimeter wall
   layers:
   - Default
   - TransparentFX
@@ -29,7 +30,7 @@ TagManager:
   - Sharks
   - Shark Wall
   - perimeter Wall
-  - PlayerInvincible
+  - 
   - 
   - 
   - 
