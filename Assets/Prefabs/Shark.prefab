@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -6444230373063027266}
   m_Layer: 14
   m_Name: Shark
-  m_TagString: Untagged
+  m_TagString: Shark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,8 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Movement Horizontal","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed
-      Horizontal","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"Direction
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed Horizontal","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"Direction
       Horizontal ","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Movement
       Vertical","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed
       Vertical","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Direction
