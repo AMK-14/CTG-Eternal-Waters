@@ -16,6 +16,9 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"x
       for health bar","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"y
       for health bar","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Health
-      points","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"score","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      points","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"score","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Highscore","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Deaths","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Trash
+      Destroyed by Nanobots","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Trash
+      picked up by hand","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"total
+      trash picked up","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1784235645598328, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 3}
