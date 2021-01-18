@@ -16,8 +16,7 @@ GameObject:
   - component: {fileID: 7593713871977088904}
   - component: {fileID: 2853311386557561727}
   - component: {fileID: -5586834305726509726}
-  - component: {fileID: 6969500420379398599}
-  - component: {fileID: 5156145233249712018}
+  - component: {fileID: 8188970909314709557}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -196,7 +195,7 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 2ce91b8c7c7654b0896e71adf7b3a124, type: 2}
---- !u!114 &6969500420379398599
+--- !u!114 &8188970909314709557
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -205,27 +204,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1784235645598328}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53531864e3bc549a6896497b77986065, type: 3}
+  m_Script: {fileID: 305935433, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  healthBar: {fileID: 0}
---- !u!114 &5156145233249712018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784235645598328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f224cec3cfb8478384d7b76173e567f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  healthBar: {fileID: 0}
 --- !u!1 &544621630757950863
 GameObject:
   m_ObjectHideFlags: 0
