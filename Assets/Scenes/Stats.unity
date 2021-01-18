@@ -133,7 +133,6 @@ GameObject:
   - component: {fileID: 94884002}
   - component: {fileID: 94884001}
   - component: {fileID: 94884000}
-  - component: {fileID: 94883999}
   m_Layer: 5
   m_Name: Statistics
   m_TagString: Untagged
@@ -160,22 +159,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2.77, y: 0.25}
   m_SizeDelta: {x: 508.5545, y: 75.30997}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &94883999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94883997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 828cd20b09ab2469bae6086141369460, type: 2}
 --- !u!114 &94884000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,9 +495,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: ba2d028596eff433ebf1e53cc7536aae, type: 2}
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"e00c3602-d753-48ae-912f-f811fba38ff9","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"d19f1c75-942f-44e0-8eb0-dfbfd6e7c558","$version":"A","$type":"Bolt.Update"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"MainMenu","$type":"System.String"}},"position":{"x":166.0,"y":-106.0},"guid":"d6beabb2-3270-4c1b-92ad-6893c22d0781","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-50.0,"y":-90.0},"guid":"7d436515-e7e3-4995-ba6f-a04bb0177d47","$version":"A","$type":"Bolt.OnButtonClick","$id":"17"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"5137b3dc-55a5-4950-8b9f-d5e036c171ea","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
 --- !u!114 &217049862
 MonoBehaviour:
   m_ObjectHideFlags: 0
