@@ -12,6 +12,7 @@ TagManager:
   - Shark
   - horizontal perimeter wall
   - vertical perimeter wall
+  - level one wall
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - Sharks
   - Shark Wall
   - perimeter Wall
-  - 
+  - no collision
   - 
   - 
   - 
