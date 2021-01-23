@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"directionVertical","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"projectileVerticalSpeed","value":{"$content":35,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"directionVertical","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"projectileVerticalSpeed","value":{"$content":20,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &3543579991977367175
 MonoBehaviour:
