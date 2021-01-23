@@ -13,6 +13,7 @@ TagManager:
   - horizontal perimeter wall
   - vertical perimeter wall
   - level one wall
+  - Death on collision
   layers:
   - Default
   - TransparentFX
