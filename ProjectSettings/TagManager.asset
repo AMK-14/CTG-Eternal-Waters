@@ -14,6 +14,7 @@ TagManager:
   - vertical perimeter wall
   - level one wall
   - Death on collision
+  - Lava Projectile
   layers:
   - Default
   - TransparentFX
