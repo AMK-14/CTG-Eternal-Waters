@@ -144,7 +144,9 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"Speed Horizontal","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed
       Vertical","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"HasProjectiles","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"directionHorizontal","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"directionVertical","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Movement
       Horizontal","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"projectile
-      Y","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Y","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"player
+      Spawn X","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"player
+      Spawn Y","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &7593713871977088904
 MonoBehaviour:

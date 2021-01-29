@@ -17,5 +17,5 @@ MonoBehaviour:
       Destroyed by Nanobots","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Trash
       picked up by hand","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"total
       trash picked up","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"trash
-      in game picked up","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      in game picked up","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"score","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
