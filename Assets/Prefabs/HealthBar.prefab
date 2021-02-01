@@ -82,6 +82,7 @@ GameObject:
   - component: {fileID: 4350232540827776364}
   - component: {fileID: 3302912598218131489}
   - component: {fileID: 1219547342165982311}
+  - component: {fileID: 8735882466895157521}
   m_Layer: 5
   m_Name: Bar
   m_TagString: Untagged
@@ -135,6 +136,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 96654a47a35904167bbd3d274228fa76, type: 2}
+--- !u!114 &8735882466895157521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2164415963978850482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"91d90344-496a-45e1-b57b-dddb55b4f607","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"5053b000-5cc3-41bf-af71-87dde01ae1c5","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{},"position":{"x":180.0,"y":-142.0},"guid":"a00a00b8-78db-4373-a397-c1466a681028","$version":"A","$type":"Bolt.Update","$id":"14"},{"chainable":false,"member":{"name":"localScale","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":376.0,"y":-144.0},"guid":"5fe8c324-fd82-4f90-b121-386b8dd94196","$version":"A","$type":"Bolt.SetMember","$id":"16"},{"chainable":false,"member":{"name":".ctor","parameterTypes":["System.Single","System.Single","System.Single"],"targetType":"UnityEngine.Vector3","targetTypeName":"UnityEngine.Vector3","$version":"A"},"defaultValues":{"%x":{"$content":0.0,"$type":"System.Single"},"%y":{"$content":1.0,"$type":"System.Single"},"%z":{"$content":0.0,"$type":"System.Single"}},"position":{"x":180.0,"y":-30.0},"guid":"93a52311-8059-4c03-9da4-25d7ef46b164","$version":"A","$type":"Bolt.InvokeMember","$id":"19"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Health
+      points","$type":"System.String"}},"position":{"x":-40.0,"y":-14.0},"guid":"1023216a-a4fa-45e6-9128-25dcc53572ee","$version":"A","$type":"Bolt.GetVariable","$id":"22"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"627634f6-8e01-4436-9ce3-3a300d19b2cb","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"result","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"b70d8b5d-0048-4bac-ad13-10ab964fba94","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"%x","guid":"0b8191eb-dfd6-4993-b079-454c6cb1d723","$type":"Bolt.ValueConnection"}],"$version":"A"}}}'
+    _objectReferences: []
 --- !u!1 &4723770433222567739
 GameObject:
   m_ObjectHideFlags: 0
