@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"ArrowHorizontalSpeed","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"directionVertical","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"ArrowHorizontalSpeed","value":{"$content":60.0,"$type":"System.Single"},"$version":"A"},{"name":"directionVertical","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &3861736409275328434
 MonoBehaviour:
