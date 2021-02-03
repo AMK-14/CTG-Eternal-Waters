@@ -8300,7 +8300,8 @@ namespace Ludiq.Generated.Aot
 		{
 			float arg0 = default(float);
 			float arg1 = default(float);
-			new UnityEngine.Vector3(arg0, arg1);
+			float arg2 = default(float);
+			new UnityEngine.Vector3(arg0, arg1, arg2);
 		}
 		
 		// UnityEngine.Vector3..ctor
@@ -8309,8 +8310,7 @@ namespace Ludiq.Generated.Aot
 		{
 			float arg0 = default(float);
 			float arg1 = default(float);
-			float arg2 = default(float);
-			new UnityEngine.Vector3(arg0, arg1, arg2);
+			new UnityEngine.Vector3(arg0, arg1);
 		}
 		
 		// UnityEngine.Vector3.op_Addition
